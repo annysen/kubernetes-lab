@@ -134,7 +134,7 @@ I observed that Kubernetes created a replacement Pod. This demonstrated how the 
 When I no longer need this lab, I can delete the Deployment using:
 
 ```bash
-kubectl delete -f deployment.yaml
+kubectl delete deployment nginx-deployment
 ```
 
 To check the remaining Deployments and ReplicaSets:
